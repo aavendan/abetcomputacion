@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
 @import url('https://fonts.googleapis.com/css?family=Mali');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 #cabecera, #footer {
 	background-color: #282548;
@@ -20,13 +21,13 @@
 }
 
 .up {
-	top: -48px;
+	top: -21px;
     z-index: 99;
     border-radius: 15px 15px 0 0 ;
 }
 
 #nombremateria {
-	font-size: 55pt;
+	font-size: 40pt;
 	font-family: 'Fredoka One', cursive;
 }
 
@@ -36,8 +37,8 @@
 }
 
 #tipo {
-	left: 34px;
-    top: 42px;
+	left: 24px;
+    top: 10px;
 	font-family: 'Mali', cursive;
 	/*color: #e36f3e;*/
 	/*background-image: url('../img/sticker.png');
@@ -55,20 +56,30 @@
 
 .headerso {
 	background-color: #2c9e45;
+	font-family: 'Fredoka One', cursive;
+	color: white;
 }
 
 .headerso-e {
 	background-color: #c76421;
+	font-family: 'Fredoka One', cursive;
+	color: white;
 }
 
 .so {
 	background-color: #80c342;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
 	border-radius: 0 0 10px 10px;
+	color: white;
 }
 
 .so-e{
 	background-color: #d49068;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
 	border-radius: 0 0 10px 10px;
+	color: white;
 }
 
 #teamenglish {
@@ -85,3 +96,8 @@
 	font-family: 'Fredoka One', cursive;
 }
 
+@media (min-width: 1200px) {
+    .container{
+        max-width: 990px;
+    }
+}
