@@ -3,4 +3,4 @@
 * [Formación](formacion.html)
 
 
-[Enlace al sitio] (https://aavendan.github.io/abetcomputacion/)
+[Enlace al sitio](https://aavendan.github.io/abetcomputacion/)
