@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Mali');
+
+#cabecera, #footer {
+	background-color: #282548;
+	/*background-color: black;*/
+	color: white;
+}
+
+#bellow {
+	background-color: #282548;
+	border-radius: 0 0 15px 15px;
+}
+
+#nombremateria {
+	font-size: 55pt;
+	font-family: 'Fredoka One', cursive;
+}
+
+#footertext {
+	font-size: 20pt;
+	font-family: 'Fredoka One', cursive;
+}
+
+#tipo {
+	left: 63px;
+    top: 42px;
+	font-family: 'Mali', cursive;
+	/*color: #e36f3e;*/
+	/*background-image: url('../img/sticker.png');
+	background-repeat: no-repeat;
+	background-size: 300px 100px;*/
+}
+
+#left{
+	background-color: #bed84e;
+}
+
+#right {
+	background-color: #ecb031;
+}
+
+.headerso {
+	background-color: #2c9e45;
+}
+
+.headerso-e {
+	background-color: #c76421;
+}
+
+.so {
+	background-color: #80c342;
+	border-radius: 0 0 10px 10px;
+}
+
+.so-e{
+	background-color: #d49068;
+	border-radius: 0 0 10px 10px;
+}
+
+#teamenglish {
+	background-color: #a0b71a;
+	color: white;
+	font-size: 36pt;
+	font-family: 'Fredoka One', cursive;
+}
+
+#teamespanol {
+	background-color: #d84536;
+	color: white;
+	font-size: 36pt;
+	font-family: 'Fredoka One', cursive;
+}
+
