@@ -9,7 +9,20 @@
 
 #bellow {
 	background-color: #282548;
-	border-radius: 0 0 15px 15px;
+	color: #282548;
+	display: block;
+}
+
+.down {
+	top: 25px;
+    z-index: 99;
+    border-radius: 0 0 15px 15px;
+}
+
+.up {
+	top: -48px;
+    z-index: 99;
+    border-radius: 15px 15px 0 0 ;
 }
 
 #nombremateria {
@@ -23,7 +36,7 @@
 }
 
 #tipo {
-	left: 63px;
+	left: 34px;
     top: 42px;
 	font-family: 'Mali', cursive;
 	/*color: #e36f3e;*/
