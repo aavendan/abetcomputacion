@@ -3,19 +3,30 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
-	background: #D3CCE3;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
 
 #cabecera, #footer {
-	background-color: #282548;
+	background-color: #001a43;
 	/*background-color: black;*/
 	color: white;
 }
 
+#logofiec, #logoespol {
+	width: 85%;
+}
+
+#logofiec {
+	-webkit-filter: invert(1);
+  filter: invert(1);
+}
+
 #bellow {
-	background-color: #282548;
+	background-color: #001a43;
 	color: #282548;
 	display: block;
 }
@@ -37,7 +48,6 @@ body {
 }
 
 #footertext {
-	font-size: 20pt;
 	font-family: 'Fredoka One', cursive;
 }
 
@@ -119,3 +129,4 @@ body {
 			width: 60%;
 		}
 }
+
