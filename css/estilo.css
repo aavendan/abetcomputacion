@@ -84,19 +84,30 @@
 #teamenglish {
 	background-color: #a0b71a;
 	color: white;
-	font-size: 36pt;
 	font-family: 'Fredoka One', cursive;
 }
 
 #teamespanol {
 	background-color: #d84536;
 	color: white;
-	font-size: 36pt;
 	font-family: 'Fredoka One', cursive;
 }
 
-/*@media (min-width: 1200px) {
-    .container{
-        max-width: 990px;
-    }
-}*/
+.glyph-icon svg {
+	width:16px;
+	height:16px;
+}
+
+.si-glyph * {
+		fill: #FEC91A;
+}
+
+.si-glyph2 * {
+		fill: #005B88;
+}
+
+@media (min-width: 768px) { 
+		.container{
+			width: 60%;
+		}
+}
