@@ -15,7 +15,7 @@
 }
 
 .down {
-	top: 25px;
+	top: 19px;
     z-index: 99;
     border-radius: 0 0 15px 15px;
 }
@@ -27,7 +27,6 @@
 }
 
 #nombremateria {
-	font-size: 40pt;
 	font-family: 'Fredoka One', cursive;
 }
 
@@ -37,8 +36,8 @@
 }
 
 #tipo {
-	left: 24px;
-    top: 10px;
+	/*left: 24px;
+    top: 10px;*/
 	font-family: 'Mali', cursive;
 	/*color: #e36f3e;*/
 	/*background-image: url('../img/sticker.png');
@@ -96,8 +95,8 @@
 	font-family: 'Fredoka One', cursive;
 }
 
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
     .container{
         max-width: 990px;
     }
-}
+}*/
