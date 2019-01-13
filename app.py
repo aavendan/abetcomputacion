@@ -10,5 +10,4 @@ def formacion():
    return render_template('formacion.html')
 
 if __name__ == '__main__':
-	app.debug = True
 	app.run()
