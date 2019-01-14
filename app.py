@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, request, render_template
 import pymongo
 import json
 from bson.json_util import dumps
@@ -17,9 +17,17 @@ def formacion():
    return render_template('formacion.html')
 
 @app.route('/formacion/materias')
-def formacionData():
+def formacionMaterias():
 	db = client.get_database()
 	return dumps(db.formacion.distinct("Materia"))
+
+@app.route('/formacion/resultados')
+def formacionResultados():
+	materia = request.args.get('materia')
+
+	db = client.get_database()
+	result = db.formacion.find({"Materia":materia})
+	return dumps(result)
 
 if __name__ == '__main__':
 	app.debug = True
