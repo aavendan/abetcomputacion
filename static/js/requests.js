@@ -1,18 +1,4 @@
-$(document).ready(function(){
-  
-  $.get("/formacion/materias", function(data, status){
-   	var $select = $('#materias');
-   	$select.find('option').remove();
-   	var materias = jQuery.parseJSON(data)
-   	$.each(materias, function(key, value) {    
-   	   if(value.length > 0) {
-   	   	$select.append('<option value=' + key + '>' + value + '</option>');    	
-   	   }          
-       
-    });
-  });
-
-  $('#materias').on('change', function() {
+$('#materias').on('change', function() {
   	var nombre = $(this).find(":selected").text();
   	$.get("/formacion/resultados",{ materia: nombre }, function(data, status){
 
@@ -51,5 +37,25 @@ $(document).ready(function(){
 
   	});
   });
+
+$(document).ready(function(){
+  
+  $.get("/formacion/materias", function(data, status){
+   	var $select = $('#materias');
+   	$select.find('option').remove();
+   	var materias = jQuery.parseJSON(data)
+   	$.each(materias, function(key, value) {  
+   		let selected = (key == 0)?' selected="selected" ':' '
+   	   if(value.length > 0) {
+   	   	$select.append('<option value=' + key + ' ' +selected+ '>' + value + '</option>');    	
+   	   }          
+    });
+
+   	$('#materias').change()
+
+  });
+
+
+
 
 });
