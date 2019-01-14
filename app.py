@@ -16,6 +16,10 @@ def index():
 def formacion():
    return render_template('formacion.html')
 
+@app.route('/medicion')
+def medicion():
+   return render_template('medicion.html')
+
 @app.route('/formacion/materias')
 def formacionMaterias():
 	db = client.get_database()

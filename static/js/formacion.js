@@ -10,6 +10,7 @@ $('#materias').on('change', function() {
 
   		ras.map(function(elemento){ 
   			let rowe = $("<div></div>")
+        rowe.addClass("row")
 
 		    let rae = $("<div></div>").text("Student Outcome - "+elemento["RA"]);
 		    rae.addClass("col-md-10 offset-md-1 p-2 mt-2 rounded headerso")
@@ -22,6 +23,7 @@ $('#materias').on('change', function() {
 		    $('#left').append(rowe)
 		 
   			let rows = $("<div></div>")
+        rows.addClass("row")
 
 		    let ras = $("<div></div>").text("Resultado de Aprendizaje - "+elemento["RA"]);
 		    ras.addClass("col-md-10 offset-md-1 p-2 mt-2 rounded headerso-e")
