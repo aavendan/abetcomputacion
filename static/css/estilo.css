@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
-@import url('https://fonts.googleapis.com/css?family=Mali');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
 
 body {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
@@ -44,17 +42,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 #nombremateria {
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Hammersmith One', cursive;
 }
 
 #footertext {
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Hammersmith One', cursive;
 }
 
 #tipo {
 	/*left: 24px;
     top: 10px;*/
-	font-family: 'Mali', cursive;
+	font-family: 'Hammersmith One', cursive;
 	/*color: #e36f3e;*/
 	/*background-image: url('../img/sticker.png');
 	background-repeat: no-repeat;
@@ -72,13 +70,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .headerso {
 	background-color: #2c9e45;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Hammersmith One', cursive;
 	color: white;
 }
 
 .headerso-e {
 	background-color: #c76421;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Hammersmith One', cursive;
 	color: white;
 }
 
@@ -134,7 +132,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /*medición*/
 
 #center {
-    background-color: #cfd1d3;
+    background-color: #f4f4f4;
 }
 
 #english{
@@ -143,4 +141,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 #español {
 	background-color: #ecb031;
+}
+
+.table-dark-green {
+    color: #fff;
+    background-color: #248739;
 }

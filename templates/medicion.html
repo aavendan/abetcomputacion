@@ -1,71 +1,98 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Infografía de RA - Medición</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link rel="stylesheet" href= "{{ url_for('static', filename = 'css/estilo.css') }}" >
-	</head>
-	<body>
-		<div class="container">
-			<div class="row mt-2">
-				<div class="col-4 col-md-2 offset-md-2 text-center align-self-center">
-					S.O. - R.A.: 
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografía de RA - Medición</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/estilo.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col-4 col-md-2 offset-md-2 text-center align-self-center">
+                S.O. - R.A.:
+            </div>
+            <div class="col-8 col-md-6 text-center">
+                <select id="ra" class="custom-select">
+                    <option value="volvo">Cargando ... </option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="container shadow-lg">
+        <div id="cabecera" class="row mt-1 pt-2 pb-1 rounded-top">
+            <div class="col-md-3 d-none d-md-block mt-3">
+                <img id="logofiec" src="{{ url_for('static', filename='img/Logo_FIEC-02.png') }}" class="rounded float-left" alt="Logo Fiec">
 				</div>
-				<div class="col-8 col-md-6 text-center">
-					<select id="ra" class="custom-select">
-					  <option value="volvo">Cargando ... </option>
-					</select>
+                <div class="col-md-6 text-center mt-1 font-weight-bold">
+                    <h2 id="tipo">Computer Science Ingeniería en Computación </h2>
+                </div>
+                <div class="col-md-3 d-none d-md-block mt-1">
+                    <img id="logoespol" src="{{ url_for('static', filename='img/WEB 2017_r1_c3.gif') }}" class="rounded float-right" alt="Logo ESPOL">
 				</div>
-			</div>
-		</div>
-		<div class="container shadow-lg">
-			<div id="cabecera" class="row mt-1 pt-1 pb-1 rounded-top">
-				<div class="col-md-3 d-none d-md-block mt-3">
-					<img id="logofiec" src="{{ url_for('static', filename='img/Logo_FIEC-02.png') }}" class="rounded float-left" alt="Logo Fiec">
-				</div>
-				<div class="col-md-6 text-center mt-1 font-weight-bold">
-					<h2 id="tipo">Computer Science Ingeniería en Computación </h2>
-				</div>
-				<div class="col-md-3 d-none d-md-block mt-1">
-					<img id="logoespol" src="{{ url_for('static', filename='img/WEB 2017_r1_c3.gif') }}" class="rounded float-right" alt="Logo ESPOL">
-				</div>
-				<div class="col-12 col-md-12 text-center mt-2">
-					<h3 id="nombremateria"> Student Outcome a - Resultado de Aprendizaje a </h3>
-				</div>
-				<div id="bellow" class="col-md-10 p-2 d-none d-md-block offset-md-1 text-center position-relative down"></div>
-			</div>
-			<div class="row">
-				<div id="center" class="col-md-12 d-none d-md-block d-lg-block p-4 text-center">
-					<div class="row">
-						<div id="english" class="col-md-3 offset-md-2 rounded">
-							Ability to apply knowledge of computing and mathematics appropriate to their discipline
-						</div>
-						<div id="español" class="col-md-3 offset-md-2 rounded">
-							Habilidad para aplicar conocimientos de computación y matemáticas adecuados a su disciplina.
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="footer" class="row d-none d-md-block d-lg-block pt-2 pb-4 mb-4 rounded-bottom">
-				<div id="bellow" class="col-md-10 p-2 offset-md-1 text-center position-relative up"></div>
-				<div id="footertext" class="col-md-10 offset-md-1 text-center">
-					<h3>FIEC - 2019</h3>
-				</div>
-				
-			</div>
-		</div>
-		<!-- <h1>ABET</h1>
+                    <div class="col-12 col-md-12 text-center mt-2">
+                        <h3 id="nombremateria"> Student Outcome a - Resultado de Aprendizaje a </h3>
+                    </div>
+                    <div id="bellow" class="col-md-10 p-2 d-none d-md-block offset-md-1 text-center position-relative down"></div>
+                </div>
+                <div class="row text-center">
+                    <div id="left" class="col-md-6 pb-2 pt-4 pb-4">
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1 p-2 mt-2 rounded headerso">Student Outcome - a</div>
+                            <div class="col-md-10 offset-md-1 p-2 mt-1 mb-2 so">An ability to apply knowledge of computing and mathematics appropriate to the discipline.</div>
+                        </div>
+                        <div class="row">
+                            <div class="table-responsive m-3">
+                                <table class="table table-dark-green">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col">Criteria</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Apply knowledge of engineering mathematics (differential and integral calculus, linear algebra and statistics) for analysis and problem solving.</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Apply knowledge of computational theory (discrete mathematics, data structure and algorithms analysis) for analysis and problem solving.</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Apply specialized knowledge of computer science (data base, operating systems, human computer interaction) for analysis and problem solving</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="right" class="col-md-6 pb-2 pt-4 pb-4">
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1 p-2 mt-2 rounded headerso-e">Resultado de Aprendizaje - a</div>
+                            <div class="col-md-10 offset-md-1 p-2 mt-1 mb-2 so-e">Habilidad para aplicar conocimientos de computación y matemáticas apropiados a su disciplina</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer" class="row d-none d-md-block d-lg-block pt-2 pb-4 mb-4 rounded-bottom">
+                    <div id="bellow" class="col-md-10 p-2 offset-md-1 text-center position-relative up"></div>
+                    <div id="footertext" class="col-md-10 offset-md-1 text-center">
+                        <h3>FIEC - 2019</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- <h1>ABET</h1>
 		<a href="index.html">index</a> -->
-		<script
-			  src="https://code.jquery.com/jquery-3.3.1.js"
-			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-			  crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-		<!-- <script src="{{ url_for('static', filename='js/iconwc.js') }}"></script> -->
-		<script src="{{ url_for('static', filename='js/medicion.js') }}"></script>
-	</body>
+            <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            <!-- <script src="{{ url_for('static', filename='js/iconwc.js') }}"></script> -->
+            <script src="{{ url_for('static', filename='js/medicion.js') }}"></script>
+</body>
+
 </html>
