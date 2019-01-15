@@ -114,9 +114,41 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 /*medición*/
 
-#center {
+#center1 {
     background-color: #ecf6e4;
 }
+
+#center2 {
+	background-color: #cbd7b6;
+}
+
+#textso {
+	color: black;
+}
+
+#textcriterias {
+	color: white;
+	font-size: 0.8rem;
+}
+
+#criteria1 {
+	background-color: #832519;
+	border-color: #832519;
+}
+
+#criteria2 {
+	background-color: #ad4122;
+	border-color: #ad4122;
+}
+
+#criteria3 {
+	background-color: #d3851f;
+	border-color: #d3851f;
+}
+
+
+
+/*
 
 #english{
 	background-color: #bed84e;
@@ -134,4 +166,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .table-dark-orange {
     color: #fff;
     background-color: #248739;
-}
+}*/
