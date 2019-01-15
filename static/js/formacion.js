@@ -13,11 +13,11 @@ $('#materias').on('change', function() {
         rowe.addClass("row")
 
 		    let rae = $("<div></div>").text("Student Outcome - "+elemento["RA"]);
-		    rae.addClass("col-md-10 offset-md-1 p-2 mt-2 rounded headerso")
+		    rae.addClass("col-md-10 offset-md-1 col-10 offset-1 p-2 mt-2 rounded headerso")
 		    rowe.append(rae)
 		    
 		    let texte = $("<div></div>").text(elemento["Inglés"].split('comma').join(','));
-		    texte.addClass("col-md-10 offset-md-1 p-2 mt-1 mb-2 so")
+		    texte.addClass("col-md-10 offset-md-1 col-10 offset-1 p-2 mt-1 mb-2 so")
 		    rowe.append(texte)
 
 		    $('#left').append(rowe)
@@ -26,11 +26,11 @@ $('#materias').on('change', function() {
         rows.addClass("row")
 
 		    let ras = $("<div></div>").text("Resultado de Aprendizaje - "+elemento["RA"]);
-		    ras.addClass("col-md-10 offset-md-1 p-2 mt-2 rounded headerso-e")
+		    ras.addClass("col-md-10 offset-md-1 col-10 offset-1 p-2 mt-2 rounded headerso-e")
 		    rows.append(ras)
 		    
 		    let texts = $("<div></div>").text(elemento["Español"].split('comma').join(','));
-		    texts.addClass("col-md-10 offset-md-1 p-2 mt-1 mb-2  so-e")
+		    texts.addClass("col-md-10 offset-md-1 col-10 offset-1 p-2 mt-1 mb-2  so-e")
 		    rows.append(texts)
 		    
 
