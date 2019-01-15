@@ -145,21 +145,25 @@ body {
 #criteria1 {
     /*background-color: #832519;*/
     background-color: rgb(252, 184, 87, 0.9);
+    opacity: 0.9;
     /*border-color: #832519;*/
 }
 
 #criteria2 {
     background-color: rgb(114, 146, 148, 0.9);
+    opacity: 0.9;
     /*border-color: #ad4122;*/
 }
 
 #criteria3 {
     background-color: rgb(223, 84, 70, 0.9);
+    opacity: 0.9;
     /*border-color: #d3851f;*/
 }
 
 #criteriamask {
     background-color: rgb(0, 0, 0, 0.4);
+    opacity: 0.4;
     color: white;
 }
 
