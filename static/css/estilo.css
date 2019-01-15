@@ -175,9 +175,10 @@ body {
 
 /*Pointer*/
 #pointer {
-    width: 100px;
-    height: 40px;
+    width: 70%;
+    height: 100%;
     position: relative;
+    color: white;
 }
 
 #pointer:after {
@@ -204,27 +205,27 @@ body {
 }
 
 .pointer1 {
-	background: #ffdd9d;
+	background: #5294CF;
 }
 
 #pointer.pointer1:before {
-	border-left: 20px solid #ffdd9d;
+	border-left: 20px solid #5294CF;
 }
 
 .pointer2 {
-	background: #ffd66f;
+	background: #36669C;
 }
 
 #pointer.pointer2:before {
-	border-left: 20px solid #ffd66f;
+	border-left: 20px solid #36669C;
 }
 
 .pointer3 {
-	background: #ff7b34;
+	background: #0A2E61;
 }
 
 #pointer.pointer3:before {
-	border-left: 20px solid #ff7b34;
+	border-left: 20px solid #0A2E61;
 }
 
 
