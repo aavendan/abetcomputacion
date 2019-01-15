@@ -178,14 +178,14 @@ body {
 }
 
 /*Pointer*/
-#pointer {
+.pointer {
     width: 100%;
     height: 100%;
     position: relative;
     color: white;
 }
 
-#pointer:after {
+.pointer:after {
     content: "";
     position: absolute;
     left: 0;
@@ -197,7 +197,7 @@ body {
     border-bottom: 20px solid transparent;
 }
 
-#pointer:before {
+.pointer:before {
     content: "";
     position: absolute;
     right: -20px;
@@ -212,7 +212,7 @@ body {
 	background: #5294CF;
 }
 
-#pointer.pointer1:before {
+.pointer.pointer1:before {
 	border-left: 20px solid #5294CF;
 }
 
@@ -220,7 +220,7 @@ body {
 	background: #36669C;
 }
 
-#pointer.pointer2:before {
+.pointer.pointer2:before {
 	border-left: 20px solid #36669C;
 }
 
@@ -228,7 +228,7 @@ body {
 	background: #0A2E61;
 }
 
-#pointer.pointer3:before {
+.pointer.pointer3:before {
 	border-left: 20px solid #0A2E61;
 }
 
