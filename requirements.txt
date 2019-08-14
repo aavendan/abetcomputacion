@@ -2,3 +2,5 @@ Flask==1.1.1
 gunicorn==19.9.0
 Jinja2==2.10.1
 pandas==0.25.0
+xlrd==1.2.0
+pyexcel-xls==0.5.8
