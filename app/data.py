@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_name = "alldata"
+file_name = "data"
 sheet_name = "ActualizacionSO"
 
 dfsActSO = pd.read_excel("./resources/"+file_name+".xlsx", sheet_name=sheet_name, encoding="UTF-8")
