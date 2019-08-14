@@ -1,0 +1,551 @@
+{
+  "11012019":
+  [
+    {
+      "Materia": "100-1 Fundamentos de Programación",
+      "RA": "a",
+      "Inglés": "An ability to apply knowledge of computing and mathematics appropriate to the discipline.",
+      "Español": "Habilidad para aplicar conocimientos de computación y matemáticas apropiados a su disciplina"
+    },
+    {
+      "Materia": "100-1 Fundamentos de Programación",
+      "RA": "c",
+      "Inglés": "An ability to design, implement, and evaluate a computer-based system, process, component, or program to meet desired needs.",
+      "Español": "Habilidad para diseñar, implementar, y evaluar un sistema basado en computadoras, procesos, componentes o programas que cumplan necesidades específicas."
+    },
+    {
+      "Materia": "100-1 Fundamentos de Programación",
+      "RA": "d / RAI6",
+      "Inglés": "An ability to function effectively on teams to accomplish a common goal.",
+      "Español": "Tener la capacidad para trabajar como parte de un equipo multidisciplinario."
+    },
+    {
+      "Materia": "100-1 Fundamentos de Programación",
+      "RA": "h / RAI4",
+      "Inglés": "Recognition of the need for and an ability to engage in continuing professional development.",
+      "Español": "Reconocer la necesidad, y tener la habilidad para involucrarse en el aprendizaje a lo largo de la vida."
+    },
+    {
+      "Materia": "200-1 Programación Orientada a Objetos",
+      "RA": "b",
+      "Inglés": "An ability to analyze a problem, and identify and define the computing requirements appropriate to its solution.",
+      "Español": "Habilidad para analizar un problema, e identificar y definir los requerimientos computacionales apropiados para su solución."
+    },
+    {
+      "Materia": "200-1 Programación Orientada a Objetos",
+      "RA": "c",
+      "Inglés": "An ability to design, implement, and evaluate a computer-based system, process, component, or program to meet desired needs.",
+      "Español": "Habilidad para diseñar, implementar, y evaluar un sistema basado en computadoras, procesos, componentes o programas que cumplan necesidades específicas."
+    },
+    {
+      "Materia": "200-1 Programación Orientada a Objetos",
+      "RA": "i",
+      "Inglés": "An ability to use current techniques, skills, and tools necessary for computing practice.",
+      "Español": "Habilidad para usar técnicas, habilidades, y herramientas actuales, necesarias para la práctica de la computación"
+    },
+    {
+      "Materia": "200-1 Programación Orientada a Objetos",
+      "RA": "j / RAI7",
+      "Inglés": "An ability to lead, manage and undertake projects.",
+      "Español": "Reconocer la necesidad y tener las habilidades para emprender."
+    },
+    {
+      "Materia": "200-1 Computación y Sociedad",
+      "RA": "e / RAI1",
+      "Inglés": "An understanding of professional, ethical, legal, security and social issues and responsibilities.",
+      "Español": "Comprender la responsabilidad ética y profesional."
+    },
+    {
+      "Materia": "200-1 Computación y Sociedad",
+      "RA": "g",
+      "Inglés": "An ability to analyze the local and global impact of computing on individuals, organizations, and society.",
+      "Español": "Habilidad para analizar el impacto local y global de la computación sobre los individuos, organizaciones y sociedad"
+    },
+    {
+      "Materia": "200-1 Computación y Sociedad",
+      "RA": "i",
+      "Inglés": "An ability to use current techniques, skills, and tools necessary for computing practice.",
+      "Español": "Habilidad para usar técnicas, habilidades, y herramientas actuales, necesarias para la práctica de la computación"
+    },
+    {
+      "Materia": "200-1 Computación y Sociedad",
+      "RA": "RAI5",
+      "Inglés": "A knowledge of contemporary issues.",
+      "Español": "Comprender temas contemporáneos."
+    },
+    {
+      "Materia": "200-2 Sistemas de Bases de Datos",
+      "RA": "c",
+      "Inglés": "An ability to design, implement, and evaluate a computer-based system, process, component, or program to meet desired needs.",
+      "Español": "Habilidad para diseñar, implementar, y evaluar un sistema basado en computadoras, procesos, componentes o programas que cumplan necesidades específicas."
+    },
+    {
+      "Materia": "200-2 Sistemas de Bases de Datos",
+      "RA": "d / RAI6",
+      "Inglés": "An ability to function effectively on teams to accomplish a common goal.",
+      "Español": "Tener la capacidad para trabajar como parte de un equipo multidisciplinario."
+    },
+    {
+      "Materia": "200-2 Sistemas de Bases de Datos",
+      "RA": "f / RAI2",
+      "Inglés": "An ability to communicate effectively with a range of audiences.",
+      "Español": "Tener la habilidad para comunicarse efectivamente de forma oral y escrita en español."
+    },
+    {
+      "Materia": "200-2 Sistemas de Bases de Datos",
+      "RA": "j / RAI7",
+      "Inglés": "An ability to lead, manage and undertake projects.",
+      "Español": "Reconocer la necesidad y tener las habilidades para emprender."
+    },
+    {
+      "Materia": "200-2 Matemáticas Discreta",
+      "RA": "a",
+      "Inglés": "An ability to apply knowledge of computing and mathematics appropriate to the discipline.",
+      "Español": "Habilidad para aplicar conocimientos de computación y matemáticas apropiados a su disciplina"
+    },
+    {
+      "Materia": "200-2 Matemáticas Discreta",
+      "RA": "d / RAI6",
+      "Inglés": "An ability to function effectively on teams to accomplish a common goal.",
+      "Español": "Tener la capacidad para trabajar como parte de un equipo multidisciplinario."
+    },
+    {
+      "Materia": "200-2 Matemáticas Discreta",
+      "RA": "f / RAI2",
+      "Inglés": "An ability to communicate effectively with a range of audiences.",
+      "Español": "Tener la habilidad para comunicarse efectivamente de forma oral y escrita en español."
+    },
+    {
+      "Materia": "200-2 Matemáticas Discreta",
+      "RA": "i",
+      "Inglés": "An ability to use current techniques, skills, and tools necessary for computing practice.",
+      "Español": "Habilidad para usar técnicas, habilidades, y herramientas actuales, necesarias para la práctica de la computación"
+    },
+    {
+      "Materia": "200-2 Estructura de Datos",
+      "RA": "a",
+      "Inglés": "An ability to apply knowledge of computing and mathematics appropriate to the discipline.",
+      "Español": "Habilidad para aplicar conocimientos de computación y matemáticas apropiados a su disciplina"
+    },
+    {
+      "Materia": "200-2 Estructura de Datos",
+      "RA": "b",
+      "Inglés": "An ability to analyze a problem, and identify and define the computing requirements appropriate to its solution.",
+      "Español": "Habilidad para analizar un problema, e identificar y definir los requerimientos computacionales apropiados para su solución."
+    },
+    {
+      "Materia": "200-2 Estructura de Datos",
+      "RA": "h / RAI4",
+      "Inglés": "Recognition of the need for and an ability to engage in continuing professional development.",
+      "Español": "Reconocer la necesidad, y tener la habilidad para involucrarse en el aprendizaje a lo largo de la vida."
+    },
+    {
+      "Materia": "200-2 Estructura de Datos",
+      "RA": "k",
+      "Inglés": "Apply computer science theory and software development fundamentals to produce computing-based solutions.",
+      "Español": "Habilidad para aplicar teoría de ciencias computacionales y fundamentos de desarrollo de software para producir soluciones basadas en computación."
+    },
+    {
+      "Materia": "200-2 Ciencias de la Computación aplicadas a la Solución de Problemas",
+      "RA": "f / RAI2",
+      "Inglés": "An ability to communicate effectively with a range of audiences.",
+      "Español": "Tener la habilidad para comunicarse efectivamente de forma oral y escrita en español."
+    },
+    {
+      "Materia": "200-2 Ciencias de la Computación aplicadas a la Solución de Problemas",
+      "RA": "g",
+      "Inglés": "An ability to analyze the local and global impact of computing on individuals, organizations, and society.",
+      "Español": "Habilidad para analizar el impacto local y global de la computación sobre los individuos, organizaciones y sociedad"
+    },
+    {
+      "Materia": "200-2 Ciencias de la Computación aplicadas a la Solución de Problemas",
+      "RA": "h / RAI4",
+      "Inglés": "Recognition of the need for and an ability to engage in continuing professional development.",
+      "Español": "Reconocer la necesidad, y tener la habilidad para involucrarse en el aprendizaje a lo largo de la vida."
+    },
+    {
+      "Materia": "200-2 Ciencias de la Computación aplicadas a la Solución de Problemas",
+      "RA": "j / RAI7",
+      "Inglés": "An ability to lead, manage and undertake projects.",
+      "Español": "Reconocer la necesidad y tener las habilidades para emprender."
+    },
+    {
+      "Materia": "300-1 Análisis de Algoritmos",
+      "RA": "a",
+      "Inglés": "An ability to apply knowledge of computing and mathematics appropriate to the discipline.",
+      "Español": "Habilidad para aplicar conocimientos de computación y matemáticas apropiados a su disciplina"
+    },
+    {
+      "Materia": "300-1 Análisis de Algoritmos",
+      "RA": "b",
+      "Inglés": "An ability to analyze a problem, and identify and define the computing requirements appropriate to its solution.",
+      "Español": "Habilidad para analizar un problema, e identificar y definir los requerimientos computacionales apropiados para su solución."
+    },
+    {
+      "Materia": "300-1 Análisis de Algoritmos",
+      "RA": "j / RAI7",
+      "Inglés": "An ability to lead, manage and undertake projects.",
+      "Español": "Reconocer la necesidad y tener las habilidades para emprender."
+    },
+    {
+      "Materia": "300-1 Análisis de Algoritmos",
+      "RA": "RAI3",
+      "Inglés": "An ability to communicate in English.",
+      "Español": "Tener habilidad para comunicarse en inglés."
+    },
+    {
+      "Materia": "300-1 Programación de Sistemas",
+      "RA": "b",
+      "Inglés": "An ability to analyze a problem, and identify and define the computing requirements appropriate to its solution.",
+      "Español": "Habilidad para analizar un problema, e identificar y definir los requerimientos computacionales apropiados para su solución."
+    },
+    {
+      "Materia": "300-1 Programación de Sistemas",
+      "RA": "i",
+      "Inglés": "An ability to use current techniques, skills, and tools necessary for computing practice.",
+      "Español": "Habilidad para usar técnicas, habilidades, y herramientas actuales, necesarias para la práctica de la computación"
+    },
+    {
+      "Materia": "300-1 Programación de Sistemas",
+      "RA": "RAI5",
+      "Inglés": "A knowledge of contemporary issues.",
+      "Español": "Comprender temas contemporáneos."
+    },
+    {
+      "Materia": "300-1 Programación de Sistemas",
+      "RA": "k",
+      "Inglés": "Apply computer science theory and software development fundamentals to produce computing-based solutions.",
+      "Español": "Habilidad para aplicar teoría de ciencias computacionales y fundamentos de desarrollo de software para producir soluciones basadas en computación."
+    },
+    {
+      "Materia": "300-2 Organización de Computadoras",
+      "RA": "a",
+      "Inglés": "An ability to apply knowledge of computing and mathematics appropriate to the discipline.",
+      "Español": "Habilidad para aplicar conocimientos de computación y matemáticas apropiados a su disciplina"
+    },
+    {
+      "Materia": "300-2 Organización de Computadoras",
+      "RA": "b",
+      "Inglés": "An ability to analyze a problem, and identify and define the computing requirements appropriate to its solution.",
+      "Español": "Habilidad para analizar un problema, e identificar y definir los requerimientos computacionales apropiados para su solución."
+    },
+    {
+      "Materia": "300-2 Organización de Computadoras",
+      "RA": "g",
+      "Inglés": "An ability to analyze the local and global impact of computing on individuals, organizations, and society.",
+      "Español": "Habilidad para analizar el impacto local y global de la computación sobre los individuos, organizaciones y sociedad"
+    },
+    {
+      "Materia": "300-2 Diseño de Software",
+      "RA": "d / RAI6",
+      "Inglés": "An ability to function effectively on teams to accomplish a common goal.",
+      "Español": "Tener la capacidad para trabajar como parte de un equipo multidisciplinario."
+    },
+    {
+      "Materia": "300-2 Diseño de Software",
+      "RA": "g",
+      "Inglés": "An ability to analyze the local and global impact of computing on individuals, organizations, and society.",
+      "Español": "Habilidad para analizar el impacto local y global de la computación sobre los individuos, organizaciones y sociedad"
+    },
+    {
+      "Materia": "300-2 Diseño de Software",
+      "RA": "i",
+      "Inglés": "An ability to use current techniques, skills, and tools necessary for computing practice.",
+      "Español": "Habilidad para usar técnicas, habilidades, y herramientas actuales, necesarias para la práctica de la computación"
+    },
+    {
+      "Materia": "300-2 Diseño de Software",
+      "RA": "RAI3",
+      "Inglés": "An ability to communicate in English.",
+      "Español": "Tener habilidad para comunicarse en inglés."
+    },
+    {
+      "Materia": "300-2 Metodología de la Investigación en Computación",
+      "RA": "d / RAI6",
+      "Inglés": "An ability to function effectively on teams to accomplish a common goal.",
+      "Español": "Tener la capacidad para trabajar como parte de un equipo multidisciplinario."
+    },
+    {
+      "Materia": "300-2 Metodología de la Investigación en Computación",
+      "RA": "e / RAI1",
+      "Inglés": "An understanding of professional, ethical, legal, security and social issues and responsibilities.",
+      "Español": "Comprender la responsabilidad ética y profesional."
+    },
+    {
+      "Materia": "300-2 Metodología de la Investigación en Computación",
+      "RA": "f / RAI2",
+      "Inglés": "An ability to communicate effectively with a range of audiences.",
+      "Español": "Tener la habilidad para comunicarse efectivamente de forma oral y escrita en español."
+    },
+    {
+      "Materia": "300-2 Metodología de la Investigación en Computación",
+      "RA": "i",
+      "Inglés": "An ability to use current techniques, skills, and tools necessary for computing practice.",
+      "Español": "Habilidad para usar técnicas, habilidades, y herramientas actuales, necesarias para la práctica de la computación"
+    },
+    {
+      "Materia": "400-1 Lenguajes de Programación ",
+      "RA": "a",
+      "Inglés": "An ability to apply knowledge of computing and mathematics appropriate to the discipline.",
+      "Español": "Habilidad para aplicar conocimientos de computación y matemáticas apropiados a su disciplina"
+    },
+    {
+      "Materia": "400-1 Lenguajes de Programación ",
+      "RA": "b",
+      "Inglés": "An ability to analyze a problem, and identify and define the computing requirements appropriate to its solution.",
+      "Español": "Habilidad para analizar un problema, e identificar y definir los requerimientos computacionales apropiados para su solución."
+    },
+    {
+      "Materia": "400-1 Lenguajes de Programación ",
+      "RA": "i",
+      "Inglés": "An ability to use current techniques, skills, and tools necessary for computing practice.",
+      "Español": "Habilidad para usar técnicas, habilidades, y herramientas actuales, necesarias para la práctica de la computación"
+    },
+    {
+      "Materia": "400-1 Lenguajes de Programación ",
+      "RA": "RAI3",
+      "Inglés": "An ability to communicate in English.",
+      "Español": "Tener habilidad para comunicarse en inglés."
+    },
+    {
+      "Materia": "400-1 Seguridad de la Información ",
+      "RA": "e / RAI1",
+      "Inglés": "An understanding of professional, ethical, legal, security and social issues and responsibilities.",
+      "Español": "Comprender la responsabilidad ética y profesional."
+    },
+    {
+      "Materia": "400-1 Seguridad de la Información ",
+      "RA": "i",
+      "Inglés": "An ability to use current techniques, skills, and tools necessary for computing practice.",
+      "Español": "Habilidad para usar técnicas, habilidades, y herramientas actuales, necesarias para la práctica de la computación"
+    },
+    {
+      "Materia": "400-1 Seguridad de la Información ",
+      "RA": "RAI5",
+      "Inglés": "A knowledge of contemporary issues.",
+      "Español": "Comprender temas contemporáneos."
+    },
+    {
+      "Materia": "400-1 Seguridad de la Información ",
+      "RA": "RAI3",
+      "Inglés": "An ability to communicate in English.",
+      "Español": "Tener habilidad para comunicarse en inglés."
+    },
+    {
+      "Materia": "400-1 Desarrollo de Aplicaciones Web",
+      "RA": "c",
+      "Inglés": "An ability to design, implement, and evaluate a computer-based system, process, component, or program to meet desired needs.",
+      "Español": "Habilidad para diseñar, implementar, y evaluar un sistema basado en computadoras, procesos, componentes o programas que cumplan necesidades específicas."
+    },
+    {
+      "Materia": "400-1 Desarrollo de Aplicaciones Web",
+      "RA": "h / RAI4",
+      "Inglés": "Recognition of the need for and an ability to engage in continuing professional development.",
+      "Español": "Reconocer la necesidad, y tener la habilidad para involucrarse en el aprendizaje a lo largo de la vida."
+    },
+    {
+      "Materia": "400-1 Desarrollo de Aplicaciones Web",
+      "RA": "i",
+      "Inglés": "An ability to use current techniques, skills, and tools necessary for computing practice.",
+      "Español": "Habilidad para usar técnicas, habilidades, y herramientas actuales, necesarias para la práctica de la computación"
+    },
+    {
+      "Materia": "400-1 Desarrollo de Aplicaciones Web",
+      "RA": "j / RAI7",
+      "Inglés": "An ability to lead, manage and undertake projects.",
+      "Español": "Reconocer la necesidad y tener las habilidades para emprender."
+    },
+    {
+      "Materia": "400-1 Sistemas de Información ",
+      "RA": "d / RAI6",
+      "Inglés": "An ability to function effectively on teams to accomplish a common goal.",
+      "Español": "Tener la capacidad para trabajar como parte de un equipo multidisciplinario."
+    },
+    {
+      "Materia": "400-1 Sistemas de Información ",
+      "RA": "f / RAI2",
+      "Inglés": "An ability to communicate effectively with a range of audiences.",
+      "Español": "Tener la habilidad para comunicarse efectivamente de forma oral y escrita en español."
+    },
+    {
+      "Materia": "400-1 Sistemas de Información ",
+      "RA": "g",
+      "Inglés": "An ability to analyze the local and global impact of computing on individuals, organizations, and society.",
+      "Español": "Habilidad para analizar el impacto local y global de la computación sobre los individuos, organizaciones y sociedad"
+    },
+    {
+      "Materia": "400-1 Sistemas de Información ",
+      "RA": "RAI5",
+      "Inglés": "A knowledge of contemporary issues.",
+      "Español": "Comprender temas contemporáneos."
+    },
+    {
+      "Materia": "400-2 Inteligencia Artificial",
+      "RA": "b",
+      "Inglés": "An ability to analyze a problem, and identify and define the computing requirements appropriate to its solution.",
+      "Español": "Habilidad para analizar un problema, e identificar y definir los requerimientos computacionales apropiados para su solución."
+    },
+    {
+      "Materia": "400-2 Inteligencia Artificial",
+      "RA": "h / RAI4",
+      "Inglés": "Recognition of the need for and an ability to engage in continuing professional development.",
+      "Español": "Reconocer la necesidad, y tener la habilidad para involucrarse en el aprendizaje a lo largo de la vida."
+    },
+    {
+      "Materia": "400-2 Inteligencia Artificial",
+      "RA": "RAI3",
+      "Inglés": "An ability to communicate in English.",
+      "Español": "Tener habilidad para comunicarse en inglés."
+    },
+    {
+      "Materia": "400-2 Inteligencia Artificial",
+      "RA": "k",
+      "Inglés": "Apply computer science theory and software development fundamentals to produce computing-based solutions.",
+      "Español": "Habilidad para aplicar teoría de ciencias computacionales y fundamentos de desarrollo de software para producir soluciones basadas en computación."
+    },
+    {
+      "Materia": "400-2 Ingeniería de Software I",
+      "RA": "c",
+      "Inglés": "An ability to design, implement, and evaluate a computer-based system, process, component, or program to meet desired needs.",
+      "Español": "Habilidad para diseñar, implementar, y evaluar un sistema basado en computadoras, procesos, componentes o programas que cumplan necesidades específicas."
+    },
+    {
+      "Materia": "400-2 Ingeniería de Software I",
+      "RA": "d / RAI6",
+      "Inglés": "An ability to function effectively on teams to accomplish a common goal.",
+      "Español": "Tener la capacidad para trabajar como parte de un equipo multidisciplinario."
+    },
+    {
+      "Materia": "400-2 Ingeniería de Software I",
+      "RA": "e / RAI1",
+      "Inglés": "An understanding of professional, ethical, legal, security and social issues and responsibilities.",
+      "Español": "Comprender la responsabilidad ética y profesional."
+    },
+    {
+      "Materia": "400-2 Ingeniería de Software I",
+      "RA": "h / RAI4",
+      "Inglés": "Recognition of the need for and an ability to engage in continuing professional development.",
+      "Español": "Reconocer la necesidad, y tener la habilidad para involucrarse en el aprendizaje a lo largo de la vida."
+    },
+    {
+      "Materia": "400-2 Interacción Humano Computador",
+      "RA": "c",
+      "Inglés": "An ability to design, implement, and evaluate a computer-based system, process, component, or program to meet desired needs.",
+      "Español": "Habilidad para diseñar, implementar, y evaluar un sistema basado en computadoras, procesos, componentes o programas que cumplan necesidades específicas."
+    },
+    {
+      "Materia": "400-2 Interacción Humano Computador",
+      "RA": "e / RAI1",
+      "Inglés": "An understanding of professional, ethical, legal, security and social issues and responsibilities.",
+      "Español": "Comprender la responsabilidad ética y profesional."
+    },
+    {
+      "Materia": "400-2 Interacción Humano Computador",
+      "RA": "h / RAI4",
+      "Inglés": "Recognition of the need for and an ability to engage in continuing professional development.",
+      "Español": "Reconocer la necesidad, y tener la habilidad para involucrarse en el aprendizaje a lo largo de la vida."
+    },
+    {
+      "Materia": "400-2 Interacción Humano Computador",
+      "RA": "RAI5",
+      "Inglés": "A knowledge of contemporary issues.",
+      "Español": "Comprender temas contemporáneos."
+    },
+    {
+      "Materia": "400-2 Sistemas Operativos",
+      "RA": "a",
+      "Inglés": "An ability to apply knowledge of computing and mathematics appropriate to the discipline.",
+      "Español": "Habilidad para aplicar conocimientos de computación y matemáticas apropiados a su disciplina"
+    },
+    {
+      "Materia": "400-2 Sistemas Operativos",
+      "RA": "e / RAI1",
+      "Inglés": "An understanding of professional, ethical, legal, security and social issues and responsibilities.",
+      "Español": "Comprender la responsabilidad ética y profesional."
+    },
+    {
+      "Materia": "400-2 Sistemas Operativos",
+      "RA": "g",
+      "Inglés": "An ability to analyze the local and global impact of computing on individuals, organizations, and society.",
+      "Español": "Habilidad para analizar el impacto local y global de la computación sobre los individuos, organizaciones y sociedad"
+    },
+    {
+      "Materia": "400-2 Sistemas Operativos",
+      "RA": "k",
+      "Inglés": "Apply computer science theory and software development fundamentals to produce computing-based solutions.",
+      "Español": "Habilidad para aplicar teoría de ciencias computacionales y fundamentos de desarrollo de software para producir soluciones basadas en computación."
+    },
+    {
+      "Materia": "500-1 Ingeniería de Software II",
+      "RA": "c",
+      "Inglés": "An ability to design, implement, and evaluate a computer-based system, process, component, or program to meet desired needs.",
+      "Español": "Habilidad para diseñar, implementar, y evaluar un sistema basado en computadoras, procesos, componentes o programas que cumplan necesidades específicas."
+    },
+    {
+      "Materia": "500-1 Ingeniería de Software II",
+      "RA": "d / RAI6",
+      "Inglés": "An ability to function effectively on teams to accomplish a common goal.",
+      "Español": "Tener la capacidad para trabajar como parte de un equipo multidisciplinario."
+    },
+    {
+      "Materia": "500-1 Ingeniería de Software II",
+      "RA": "f / RAI2",
+      "Inglés": "An ability to communicate effectively with a range of audiences.",
+      "Español": "Tener la habilidad para comunicarse efectivamente de forma oral y escrita en español."
+    },
+    {
+      "Materia": "500-1 Ingeniería de Software II",
+      "RA": "j / RAI7",
+      "Inglés": "An ability to lead, manage and undertake projects.",
+      "Español": "Reconocer la necesidad y tener las habilidades para emprender."
+    },
+    {
+      "Materia": "500-1 Dirección de Proyectos Informáticos",
+      "RA": "d / RAI6",
+      "Inglés": "An ability to function effectively on teams to accomplish a common goal.",
+      "Español": "Tener la capacidad para trabajar como parte de un equipo multidisciplinario."
+    },
+    {
+      "Materia": "500-1 Dirección de Proyectos Informáticos",
+      "RA": "e / RAI1",
+      "Inglés": "An understanding of professional, ethical, legal, security and social issues and responsibilities.",
+      "Español": "Comprender la responsabilidad ética y profesional."
+    },
+    {
+      "Materia": "500-1 Dirección de Proyectos Informáticos",
+      "RA": "f / RAI2",
+      "Inglés": "An ability to communicate effectively with a range of audiences.",
+      "Español": "Tener la habilidad para comunicarse efectivamente de forma oral y escrita en español."
+    },
+    {
+      "Materia": "500-1 Dirección de Proyectos Informáticos",
+      "RA": "g",
+      "Inglés": "An ability to analyze the local and global impact of computing on individuals, organizations, and society.",
+      "Español": "Habilidad para analizar el impacto local y global de la computación sobre los individuos, organizaciones y sociedad"
+    },
+    {
+      "Materia": "500-1 Sistemas Distribuidos",
+      "RA": "b",
+      "Inglés": "An ability to analyze a problem, and identify and define the computing requirements appropriate to its solution.",
+      "Español": "Habilidad para analizar un problema, e identificar y definir los requerimientos computacionales apropiados para su solución."
+    },
+    {
+      "Materia": "500-1 Sistemas Distribuidos",
+      "RA": "c",
+      "Inglés": "An ability to design, implement, and evaluate a computer-based system, process, component, or program to meet desired needs.",
+      "Español": "Habilidad para diseñar, implementar, y evaluar un sistema basado en computadoras, procesos, componentes o programas que cumplan necesidades específicas."
+    },
+    {
+      "Materia": "500-1 Sistemas Distribuidos",
+      "RA": "h / RAI4",
+      "Inglés": "Recognition of the need for and an ability to engage in continuing professional development.",
+      "Español": "Reconocer la necesidad, y tener la habilidad para involucrarse en el aprendizaje a lo largo de la vida."
+    },
+    {
+      "Materia": "500-1 Sistemas Distribuidos",
+      "RA": "k",
+      "Inglés": "Apply computer science theory and software development fundamentals to produce computing-based solutions.",
+      "Español": "Habilidad para aplicar teoría de ciencias computacionales y fundamentos de desarrollo de software para producir soluciones basadas en computación."
+    }
+  ]
+}
