@@ -10,7 +10,6 @@ def index():
 @app.route('/formacion', methods=['GET'])
 def formacion():
 	subjects = json.loads(data.getSubjects())
-	print(subjects)
 	return render_template('formacion.html', subjects = subjects)
 
 @app.route('/formacion/ras', methods=['POST'])
@@ -18,3 +17,9 @@ def formacion_ras():
 	idx = int(request.data)
 	ras = data.getRAS(idx)
 	return ras
+
+@app.route('/formacion/recommendations', methods=['POST'])
+def recommendations_subject():
+	idx = int(request.data)
+	rec = data.getRecommendations(idx)
+	return rec
