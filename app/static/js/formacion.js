@@ -42,6 +42,7 @@ $(document).ready(function() {
         
     })
 
-    // $('#subjects option[value="1"]').attr("selected",true);
+    $('#subjects option[value="1"]').attr("selected",true);
+    $( "#subjects" ).trigger( "change" );
 
 });
