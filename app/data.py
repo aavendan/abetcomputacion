@@ -9,9 +9,6 @@ subject_en = 'subject'
 ras_en = "en"
 ras_sp = "sp"
 
-
-
-
 def getSubjects():
 	json = dfsActSO[[id_subject,subject_en]].drop_duplicates().to_json(orient='records')
 	return json
