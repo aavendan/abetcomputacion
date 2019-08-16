@@ -2,6 +2,9 @@
 <html>
 
 <head>
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>ABET</title>
@@ -14,13 +17,13 @@
             <div class="col-12">
                 <div class="row my-2">
                     <div class="col-4 col-md-2 offset-md-2 text-center align-self-center">
-                        Subject:   
+                        Subject:
                     </div>
                     <div class="col-8 col-md-6 text-center">
                         <select id="subjects" class="custom-select">
                             <option value="-1">Pick up a subject name</option>
                             {% for subject in subjects %}
-                                <option value="{{subject.idx}}">{{subject.subject}}</option>
+                            <option value="{{subject.idx}}">{{subject.subject}}</option>
                             {% endfor %}
                         </select>
                     </div>
@@ -39,8 +42,8 @@
                             </h5>
                         </div>
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                            <div id="ras_en" class="card-body">  
-                                S.O. English                              
+                            <div id="ras_en" class="card-body">
+                                S.O. English
                             </div>
                         </div>
                     </div>
@@ -67,8 +70,8 @@
                             </h5>
                         </div>
                         <div id="collapThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                            <div id="rec_form" class="card-body">  
-                                Recommendations on formation                           
+                            <div id="rec_form" class="card-body">
+                                Recommendations on formation
                             </div>
                         </div>
                     </div>
