@@ -21,7 +21,7 @@ $(document).ready(function() {
                 }).then(res => res.json())
                 .catch(error => console.error('Error:', error))
                 .then(response => {
-                    console.log('Success:', response)
+                    // console.log('Success:', response)
 
                     $('#ras_en').empty()
                     $('#ras_sp').empty()
@@ -67,7 +67,7 @@ $(document).ready(function() {
                 }).then(res => res.json())
                 .catch(error => console.error('Error:', error))
                 .then(response => {
-                    console.log('Success:', response)
+                    // console.log('Success:', response)
 
                     $('#rec_form').empty()
                     $('#rec_at').empty()
@@ -108,6 +108,9 @@ $(document).ready(function() {
 
                         }
                         if (item.improvement.length > 4) {
+
+                             console.log(item.improvement)
+
                             let improvement = item.improvement;
                             let improvements = improvement.split("\n").filter(function(el) {
                                 return el.length > 0;
