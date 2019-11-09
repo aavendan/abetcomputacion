@@ -107,6 +107,9 @@ $(document).ready(function() {
 
 
                         }
+
+                         console.log(item.improvement)
+
                         if (item.improvement.length > 4) {
 
                              // console.log(item.improvement)
