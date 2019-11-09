@@ -109,7 +109,7 @@ $(document).ready(function() {
                         }
                         if (item.improvement.length > 4) {
 
-                             console.log(item.improvement)
+                             // console.log(item.improvement)
 
                             let improvement = item.improvement;
                             let improvements = improvement.split("\n").filter(function(el) {
