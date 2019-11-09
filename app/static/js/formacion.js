@@ -108,7 +108,17 @@ $(document).ready(function() {
 
                         }
                         if (item.improvement.length > 4) {
-                            $('#improvement').append(template.replace('%text%', item.improvement).replace('%alert_type%"', 'alert-warning'))
+                            let improvement = item.improvement;
+                            let improvements = improvement.split("\n").filter(function(el) {
+                                return el.length > 0;
+                            });
+
+                            improvements.forEach((improvement) => {
+                                $('#rec_imp').append(template
+                                    .replace('%text%', improvement)
+                                    .replace('%alert_type%"', 'alert-warning'))
+                            })
+                            /*$('#improvement').append(template.replace('%text%', item.improvement).replace('%alert_type%"', 'alert-warning'))*/
                         }
                     })
 
