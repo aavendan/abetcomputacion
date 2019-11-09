@@ -71,7 +71,7 @@ $(document).ready(function() {
 
                     $('#rec_form').empty()
                     $('#rec_at').empty()
-                    $('#improvement').empty()
+                    $('#rec_imp').empty()
 
                     template = `
                          <div class="alert %alert_type%" role="alert">
@@ -138,7 +138,7 @@ $(document).ready(function() {
                         $('#hasAssessment').hide()
                     }
 
-                    if ($('#improvement').children().length > 0) {
+                    if ($('#rec_imp').children().length > 0) {
                         $('#hasImprovement').show()
                     } else {
                         $('#hasImprovement').hide()
